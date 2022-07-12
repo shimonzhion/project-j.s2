@@ -1,0 +1,59 @@
+main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#div_container {
+  width: 85vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  border: 2px solid black;
+  width: 24vw;
+  height: 480px;
+  text-align: center;
+  border-radius: 3%;
+  min-width: 200px;
+
+}
+
+.btn_card {
+  align-self: center;
+  height: 35px;
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+#carouselBasicExample {
+  width: 80vw;
+}
+
+#img_Advertising {
+  width: 100%;
+  height: 20vh;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 75vw;
+    height: 450px;
+  }
+
+  .img_phone {
+    width: 50%;
+    height: 10%;
+  }
+
+  #img_Advertising {
+    width: 100%;
+    height: 80px;
+  }
+}

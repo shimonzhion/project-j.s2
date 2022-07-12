@@ -1,0 +1,12 @@
+#about_p{
+    text-indent: 80px;
+    text-align: start;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+#about_title{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
