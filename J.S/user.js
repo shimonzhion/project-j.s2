@@ -35,7 +35,7 @@ function userElements() {
   localStorage.setItem("page", "user");
   document.querySelector("#div_container").innerHTML = `<div id="container1">
 
-  <img src = "../IMG/user.png"/ style="padding:10px; width:50vw">
+  <img src = "IMG/user.png"/ style="padding:10px; width:50vw">
     <table class="user_table table table-dark table-striped text-center">
       <thead id="">
       <th scope="col">full name: </th>

@@ -33,7 +33,7 @@ async function somefunc() {
         document.querySelector(
           "#div_container"
         ).innerHTML +=  `<div id="${key.id}";  class="card ";>
-        <img class="img_phone" style="width:100% ;height:80% ;border-radius: 20%;"src="../img/${returnSrc()}" alt="">
+        <img class="img_phone" style="width:100% ;height:80% ;border-radius: 20%;"src="IMG/${returnSrc()}" alt="">
           <h1> ${key.brand}</h1>
           <h5>color: ${key.color}</h5>
           <h5>price: ${key.price}$</h5>
@@ -90,27 +90,27 @@ function cardElements(){
       <div class="carousel-inner">
         <!-- Single item -->
         <div class="carousel-item w-80 active ">
-          <img src="../img/1316.webp"  class="d-block w-100" />
+          <img src="IMG/1316.webp"  class="d-block w-100" />
           <div class="carousel-caption d-none d-md-block ">
-            <img src="../img/logo4-removebg-preview.png" style="width: 40px;" alt="">
+            <img src="IMG/logo4-removebg-preview.png" style="width: 40px;" alt="">
           </div>
         </div>
         
     
         <!-- Single item -->
         <div class="carousel-item">
-          <img src="../img/333.webp"  class="d-block w-100" />
+          <img src="IMG/333.webp"  class="d-block w-100" />
           <div class="carousel-caption d-none d-md-block">
-            <img src="../img/logo4-removebg-preview.png" style="width: 40px;" alt="">
+            <img src="IMG/logo4-removebg-preview.png" style="width: 40px;" alt="">
           </div>
         </div>
 
 
   
         <div class="carousel-item">
-          <img src="../img/111.webp"  class="d-block w-100" />
+          <img src="IMG/111.webp"  class="d-block w-100" />
           <div class="carousel-caption d-none d-md-block">
-            <img src="../img/logo4-removebg-preview.png" style="width: 40px;" alt="">
+            <img src="IMG/logo4-removebg-preview.png" style="width: 40px;" alt="">
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ function cardElements(){
     </div>
        </div>
 <div class="div_container bg-dark ">
-  <img id="img_Advertising" src="../img/1317.jpg" style="width:100%;" alt="">
+  <img id="img_Advertising" src="IMG/1317.jpg" style="width:100%;" alt="">
 </div>`
     somefunc();
 }

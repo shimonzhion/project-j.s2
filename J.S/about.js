@@ -2,7 +2,7 @@ function abutElements(){
     localStorage.setItem('page', 'about');
     document.querySelector("#div_container").innerHTML= 
 `
-<img src="../IMG/about-002.png"; style="width:300px"/>
+<img src="IMG/about-002.png"; style="width:300px"/>
 <br>
 <h1 id="about_title" >about</h1>
 <p id="about_p">"The store serves as an online store for the purchase of products and services by the public who surf the Internet in Israel.

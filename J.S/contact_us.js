@@ -21,7 +21,7 @@ function contact_usElements(){
 </form>
 </div>
 <div>
-<img id="img_form" src="../IMG/contact.jpg"/>
+<img id="img_form" src="IMG/contact.jpg"/>
 </div>
 </div>`
 
