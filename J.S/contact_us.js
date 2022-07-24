@@ -3,7 +3,10 @@ function contact_usElements(){
     localStorage.setItem('page', 'contact_us');
     document.querySelector("#div_container").innerHTML=`
     <div id="div_contact">
-    <div>
+    <div id="img_contact">
+<img id="img_form" src="IMG/contact.jpg"/>
+</div>
+    <div id="div_form">
     <form id="form_id" action="https://formsubmit.co/shimonb055@icloud.com" method="POST">
     <h1 id ="h1_form"> contact us</h1>
     <label for="first_name" >enter full name</label>
@@ -20,9 +23,7 @@ function contact_usElements(){
    <button id="btn_form" class="btn  btn-primary"; type="submit">submit</button>
 </form>
 </div>
-<div>
-<img id="img_form" src="IMG/contact.jpg"/>
-</div>
+
 </div>`
 
 }
