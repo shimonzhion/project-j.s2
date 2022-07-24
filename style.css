@@ -2,7 +2,7 @@ main{
     min-height: 100vh;
 }
 #div_home{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content:start;
 }
@@ -21,3 +21,4 @@ main{
 footer{
     position: static;
 }
+

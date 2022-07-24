@@ -5,6 +5,6 @@ function homeElements(){
    
     <img id="img_logo1" src="IMG/logo4-removebg-preview.png"/></div>
     </div>
-    <img id="home_photos" src="IMG/pppp.jpg" style="width:500px; "/>
+    <img id="home_photos" src="IMG/pppp.jpg" style="width:100%; "/>
     `
 }
